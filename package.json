@@ -1,0 +1,28 @@
+{
+  "name": "chasing-pc",
+  "version": "1.0.0",
+  "description": "chasing pc website",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.10.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.12.3",
+    "koa-views": "^6.2.1",
+    "mysql2": "^1.7.0",
+    "nunjucks": "^3.2.0",
+    "sequelize": "^5.21.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  }
+}
