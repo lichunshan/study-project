@@ -8,7 +8,7 @@ router.get('/home',async (ctx, next)=>{
     // console.log(JSON.stringify(ctx.request));
     // ctx.body = n + ' views';
     await ctx.render('index.html',{title: n + ' views', b: JSON.stringify(ctx.request.body)});
-    next();
+    await next();
     // ctx.body = '你好'
 })
 module.exports = router;
