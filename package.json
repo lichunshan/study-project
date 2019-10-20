@@ -7,8 +7,7 @@
     "dev": "nodemon --watch views ./app.js",
     "test": "mocha",
     "eslint": "eslint models router app.js",
-    "eslint:fix": "eslint models router app.js --fix",
-    "a": "nodemon --help options"
+    "eslint:fix": "eslint models router app.js --fix"
   },
   "author": "",
   "license": "ISC",
