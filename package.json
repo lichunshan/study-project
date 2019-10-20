@@ -4,8 +4,11 @@
   "description": "chasing pc website",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "test": "mocha"
+    "dev": "nodemon --watch views ./app.js",
+    "test": "mocha",
+    "eslint": "eslint models router app.js",
+    "eslint:fix": "eslint models router app.js --fix",
+    "a": "nodemon --help options"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +26,13 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "mocha": "^6.2.2",
     "nodemon": "^1.19.4"
   }
